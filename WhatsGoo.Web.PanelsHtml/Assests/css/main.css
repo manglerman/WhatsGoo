@@ -133,14 +133,16 @@
     .list-group-item.active {
         background-color: #22252b !important;
         color: #f7f7f7 !important;
+        border-radius: 5px !important;
     }
 
 /*PROFIL */
 .ProfileImage {
     width: 130px !important;
     border-radius: 150px !important;
-    margin:auto!important;
+    margin: auto !important;
 }
+
 .ChangeProfilePictureButton {
     background-image: linear-gradient(to bottom, #fcfcfc, #cccccc);
     border-radius: 4px;
@@ -154,6 +156,7 @@
     text-align: center;
     color: #323c47;
 }
+
 .SvgIcon {
     position: absolute !important;
     max-width: 20px !important;
@@ -161,19 +164,81 @@
     bottom: 7px !important;
     z-index: 9999
 }
+
+
+/*kampanyalar*/
+.media {
+    margin:5px 0 5px 0;
+    padding:15px!important;
+}
+.media .media-body {
+    margin-left: 10px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+    .media .media-body .Date {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #9b9b9b;
+        clear:both;
+        margin-top:3px!important;display:block!important;
+    }
+
+    .media .media-body .media-heading {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4a4a4a;
+    }
+    .media.even {
+        background-color: #f4f6f9!important;
+    }
 /*SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED */
+.ModalHeaderClass {
+    background-color: #f58925!important;
+    color: #ffffff !important
+}
+.ModalHeaderClass button {
+    color: #ffffff !important
+}
+.btn-secondary {
+    background-color: #22252b !important;
+    border:1px solid  #22252b !important;
+
+}
+.ActionIcon {
+    color: #0d2525 !important;
+    margin-right: 5px !important;
+}
 .control-label-singleline {
     padding-top: 10px !important;
     font-weight: bold !important;
-    font-size: 13px!important;
+    font-size: 13px !important;
 }
+
 .control-label-multiline {
     padding-left: 0px !important;
     font-weight: bold !important;
     font-size: 13px !important;
 }
+
 .form-control {
-    font-size: 13px!important;
+    font-size: 13px !important;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -181,6 +246,7 @@
     letter-spacing: normal;
     color: #323c47;
 }
+
 .InfoSpan {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
@@ -191,6 +257,7 @@
     letter-spacing: normal;
     color: #f58925;
 }
+
 .card-header {
     background-color: #0d2525 !important;
     color: #ffffff !important;
@@ -226,41 +293,42 @@ body {
 .mainboxbg {
     background-color: #ffffff !important;
 }
+
 .form-control {
     background-color: #f7f7f7 !important;
-    border: 1px solid #e9eff4!important;
+    border: 1px solid #e9eff4 !important;
 }
 
 .OdemeTipiLabel {
     padding: 0px !important;
     padding-top: 10px !important;
     padding-left: 10px !important;
-    margin:5px 0 0 5px!important;
+    margin: 5px 0 0 5px !important;
     border-radius: 4px;
     border: solid 1px #e9eff4;
     background-color: #f7f7f7;
-    height:50px!important;
+    height: 50px !important;
 }
 
 .OdemeTipiIcon {
     position: relative;
     top: -7px !important;
     display: inline-block !important;
-    width:40px!important;
+    width: 40px !important;
 }
-    /* Customize the label (the container) */
-    .InputContainer {
-        display: block;
-        position: relative;
-        padding-left: 35px;
-        margin-bottom: 12px;
-        cursor: pointer;
-        font-size: 22px;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
+/* Customize the label (the container) */
+.InputContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 .InputContainerText {
     font-size: 14px !important;
