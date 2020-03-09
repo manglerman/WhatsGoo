@@ -208,9 +208,61 @@
     .media.even {
         background-color: #f4f6f9!important;
     }
+        .row.odd {
+        
+        padding:15px!important;
+    }
+    .row.even {
+        background-color: #f4f6f9 !important;
+        padding:15px!important;
+    }
+
+.NumberTd {
+    max-width: 100px !important;
+    width: 50px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding-top:20px!important;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #323c47;
+}
+
+.PriceInput   {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold!important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    color: #00b517!important;
+}
 /*SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED */
+.table tbody tr td {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a!important;
+}
+
+    .table tbody tr td p small {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+    }
+.text-warning{
+    min-width:130px!important;
+    font-size:18px!important;
+}
 .ModalHeaderClass {
-    background-color: #f58925!important;
+    background-color: #f58925 !important;
     color: #ffffff !important
 }
 .ModalHeaderClass button {
