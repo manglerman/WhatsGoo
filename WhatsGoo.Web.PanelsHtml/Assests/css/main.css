@@ -1,0 +1,323 @@
+﻿/*HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
+.ProfileBox {
+    float: right;
+    text-align: left !important;
+    margin-right: 45px !important;
+    margin-top: 45px !important;
+    width: 100% !important;
+    max-width: 380px !important;
+    height: 70px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-top: 12px !important;
+}
+
+
+.HeaderLogo {
+    float: left !important;
+    margin-top: 45px !important;
+    margin-left: 45px !important;
+    width: 205px !important;
+}
+
+.avatar {
+    border-radius: 50% !important;
+    max-width: 46px !important;
+    margin: 12px !important;
+    margin-top: 0PX !important;
+    float: left !important;
+}
+
+.logout {
+    border-radius: 50% !important;
+    max-width: 30px !important;
+    float: right !important;
+    position: relative;
+    top: -20px !important;
+    right: 10px !important;
+}
+
+.UserName {
+    width: 200px !important;
+}
+
+.UserInfo {
+    width: 200px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 12px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+    float: left !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .ProfileBox {
+        float: left !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        width: 280px !important;
+        max-width: 100% !important;
+    }
+
+    .logout {
+        border-radius: 50% !important;
+        max-width: 30px !important;
+        float: right !important;
+        position: relative !important;
+        top: -30px !important;
+        right: 10px !important;
+    }
+}
+
+/*BREADCRUMB BREADCRUMB BREADCRUMB BREADCRUMB BREADCRUMB BREADCRUMB BREADCRUMB BREADCRUMB BREADCRUMB */
+.BradCrumb {
+    min-height: 60px !important;
+    padding: 10px !important;
+    padding-bottom: 20px !important;
+}
+
+.BreadCrumbAcceptButton {
+    background-color: #00b517 !important;
+    color: #ffffff !important;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #00b517 !important;
+    float: right !important;
+    margin-right: 15px !important;
+    margin-top: 9px !important;
+}
+
+.BreadCrumbActionButton {
+    background-color: #f58925 !important;
+    color: #ffffff !important;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #f58925 !important;
+    float: right !important;
+    margin-right: 15px !important;
+    margin-top: 9px !important;
+}
+/*SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR */
+
+.list-group {
+    margin-top: 15px !important;
+}
+
+.list-group-item {
+    background-color: #ffffff !important;
+    border: none !important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    font-size: 15px;
+}
+
+    .list-group-item:hover {
+        text-decoration: none !important;
+        color: #ffffff !important;
+        background-color: #b3b3b3 !important;
+    }
+
+    .list-group-item.active {
+        background-color: #22252b !important;
+        color: #f7f7f7 !important;
+    }
+
+/*PROFIL */
+.ProfileImage {
+    width: 130px !important;
+    border-radius: 150px !important;
+    margin:auto!important;
+}
+.ChangeProfilePictureButton {
+    background-image: linear-gradient(to bottom, #fcfcfc, #cccccc);
+    border-radius: 4px;
+    border: solid 1px #e9eff4;
+    width: 100% !important;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #323c47;
+}
+.SvgIcon {
+    position: absolute !important;
+    max-width: 20px !important;
+    right: 7px !important;
+    bottom: 7px !important;
+    z-index: 9999
+}
+/*SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED SHARED */
+.control-label-singleline {
+    padding-top: 10px !important;
+    font-weight: bold !important;
+    font-size: 13px!important;
+}
+.control-label-multiline {
+    padding-left: 0px !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+}
+.form-control {
+    font-size: 13px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    color: #323c47;
+}
+.InfoSpan {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f58925;
+}
+.card-header {
+    background-color: #0d2525 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+
+.RoundButton {
+    border-radius: 100px 100px 100px 100px;
+}
+
+body {
+    background: url(../images/background.png);
+    background-repeat: repeat-x;
+    top: 0;
+    background-color: #f8f8f8 !important;
+}
+
+
+.boxshadow {
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
+
+.contentbg {
+    background-color: #f8f8f8 !important;
+}
+
+.maindarkbg {
+    background-color: #0d2525;
+}
+
+.mainboxbg {
+    background-color: #ffffff !important;
+}
+.form-control {
+    background-color: #f7f7f7 !important;
+    border: 1px solid #e9eff4!important;
+}
+
+.OdemeTipiLabel {
+    padding: 0px !important;
+    padding-top: 10px !important;
+    padding-left: 10px !important;
+    margin:5px 0 0 5px!important;
+    border-radius: 4px;
+    border: solid 1px #e9eff4;
+    background-color: #f7f7f7;
+    height:50px!important;
+}
+
+.OdemeTipiIcon {
+    position: relative;
+    top: -7px !important;
+    display: inline-block !important;
+    width:40px!important;
+}
+    /* Customize the label (the container) */
+    .InputContainer {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+.InputContainerText {
+    font-size: 14px !important;
+    position: relative;
+    top: -8px !important
+}
+
+/* Hide the browser's default checkbox */
+.InputContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.InputContainer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.InputContainer input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.InputContainer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.InputContainer .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

@@ -1,0 +1,61 @@
+body {
+    background: url(../images/background.png);
+    background-repeat: repeat-x;
+    top: 0;
+    background-color: #f8f8f8 !important;
+}
+
+.LoginLogo {
+    margin-top: 5% !important;
+    margin-bottom: 10% !important;
+    width: 392px !important;
+    max-width: 100% !important;
+}
+.control-label {
+    text-align: left !important;
+    color :#4a4a4a!important;
+    font-weight:bold;
+}
+.loginheader {
+    margin: 0px 0px 30px 0px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+.form-control {
+    font-size: 16px;
+    color: #4a4a4a;
+}
+.SifremiUnuttum {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    float: right;
+    display: inline-block !important;
+    text-decoration: underline !important;
+}
+.BtnLogin {
+    color: #ffffff !important;
+    width: 100% !important;
+    font-size:16px!important;
+    
+}
+.BtnRegister {
+    margin-top: 10px !important;
+    color: #000000 !important;
+    border: 1px solid #000000 !important;
+    width: 100% !important;
+    font-size: 16px !important;
+    font-weight:600;
+}

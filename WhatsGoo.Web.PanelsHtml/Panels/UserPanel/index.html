@@ -1,0 +1,455 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=900, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>OmniGoo</title>
+    <link rel="stylesheet" type="text/css" href="/Assests/css/main.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-6 col-md-6 float-left">
+                <img src="/Assests/images/wg-logo.png" class="HeaderLogo" />
+            </div>
+            <div class="col-lg-6 col-md-6 text-right">
+                <div class="ProfileBox maindarkbg valign-top">
+                    <img src="https://www.w3schools.com/howto/img_avatar.png" class="avatar" />
+                    <span class="UserName">
+                        Samet AŞIK<br />
+                    </span>
+                    <span class="UserInfo">Your Last Login 18.02.2018 </span>
+                    <img src="https://www.w3schools.com/howto/img_avatar.png" class="logout" />
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 maindarkbg BradCrumb">
+            <div class="col-lg-6"></div>
+            <div class="col-lg-6">
+                <input type="button" class="btn btn-warning btn-lg BreadCrumbAcceptButton RoundButton float-right" value="DEĞİŞİKLİKLERİ KAYDET">
+                <input type="button" class="btn btn-warning btn-lg BreadCrumbActionButton RoundButton float-right" value="DEĞİŞİKLİKLERİ KAYDET">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 mainboxbg">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">Profil</a>
+                    <a href="#" class="list-group-item">Kampanyalar</a>
+                    <a href="#" class="list-group-item">Hizmetler</a>
+                    <a href="#" class="list-group-item">Rezervasyonlar</a>
+                    <a href="#" class="list-group-item">Yorumlarım</a>
+                </div>
+            </div>
+
+            <div class="col-lg-10 contentbg">
+
+                <!--<div class="card mt-4">
+                    <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Product Name</h3>
+                        <h4>$24.99</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
+                        <span class="text-warning">★ ★ ★ ★ ☆</span>
+                        4.0 stars
+                    </div>
+                </div>-->
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card card-outline-secondary my-4">
+                                    <div class="card-header">
+                                        Profil Resmi
+                                    </div>
+                                    <div class="card-body text-center" style="min-height:200px!important;">
+                                        <img src="https://www.w3schools.com/w3css/img_workshop.jpg" class="ProfileImage" /><br /><br />
+                                        <input type="button" class="btn ChangeProfilePictureButton" value="PROFİL RESMİNİ DEĞİŞTİR">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="card card-outline-secondary">
+                                    <div class="card-header">
+                                        Marka Bilgileri
+                                    </div>
+                                    <div class="card-body" >
+                                        <div class="form-group row">
+                                            <label class="col-lg-12 control-label control-label-multiline">Marka Adı:</label>
+                                            <input for="Name" class="form-control col-lg-12" value="Sam Et Restaurant" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card card-outline-secondary my-4">
+                            <div class="card-header">
+                                Çalışma Saatleri
+                            </div>
+                            <div class="card-body">
+                                <span class="InfoSpan">* Saat aralığını boş bırakırsanız işletmeniz o gün kapalı görünür.</span>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 control-label control-label-singleline">Pazartesi:</label>
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="18:00" />
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="21:00" />
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 control-label control-label-singleline">Salı:</label>
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="18:00" />
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="21:00" />
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 control-label control-label-singleline">Çarşamba:</label>
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="18:00" />
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="21:00" />
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 control-label control-label-singleline">Perşembe:</label>
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="18:00" />
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="21:00" />
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 control-label control-label-singleline">Cuma:</label>
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="18:00" />
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="21:00" />
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 control-label control-label-singleline">Cumartesi:</label>
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="18:00" />
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="21:00" />
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-4 control-label control-label-singleline">Pazar:</label>
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="18:00" />
+                                    <input for="Name" class="form-control col-lg-4 text-center" value="21:00" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card card-outline-secondary my-4">
+                            <div class="card-header">
+                                Ödeme Tipleri
+                            </div>
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <div class="col-lg-12 control-label OdemeTipiLabel">
+                                        <label class="InputContainer" style="padding-right:10px!important;padding-left:0px!important">
+                                            <span class="OdemeTipiIcon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+                                                    <defs>
+                                                        <path id="prefix__a" d="M0.002 0.021L19.246 0.021 19.246 11.864 0.002 11.864z" />
+                                                    </defs>
+                                                    <g fill="none" fill-rule="evenodd">
+                                                        <g>
+                                                            <g transform="translate(1.586 3.172) translate(.687 1.403)">
+                                                                <path fill="#008547" d="M16.184 6.116c-1.006 0-1.924.5-2.45 1.32-.437-.227-.918-.41-1.487-.41-1.53 0-2.799 1.185-3.018 2.734h9.142c.438 0 .788-.32.875-.775-.175-1.594-1.487-2.87-3.062-2.87" />
+                                                                <path fill="#008E49" d="M16.184 6.116c-1.006 0-1.924.5-2.45 1.32-.437-.227-.918-.41-1.487-.41-1.224 0-2.274.73-2.755 1.823h7.13c0-1.003.743-1.777 1.705-1.822-.568-.547-1.312-.911-2.143-.911" />
+                                                                <mask id="prefix__b" fill="#fff">
+                                                                    <use xlink:href="#prefix__a" />
+                                                                </mask>
+                                                                <path fill="#008E49" d="M18.371 11.864H.875c-.481 0-.875-.41-.875-.91V.931c0-.5.394-.91.875-.91H18.37c.481 0 .875.41.875.91v10.021c0 .501-.394.911-.875.911" mask="url(#prefix__b)" />
+                                                                <path fill="#009F4E" d="M16.622 10.953H2.624c0-1.002-.787-1.822-1.75-1.822V2.754c.963 0 1.75-.82 1.75-1.822h13.998c0 1.002.787 1.822 1.75 1.822v6.377c-.963 0-1.75.82-1.75 1.822" />
+                                                                <path fill="#008E49" d="M9.623 1.843c1.933 0 3.5 1.836 3.5 4.1 0 2.264-1.567 4.1-3.5 4.1s-3.5-1.836-3.5-4.1c0-2.264 1.567-4.1 3.5-4.1M4.374 5.032c.483 0 .875.408.875.91 0 .504-.392.912-.875.912S3.5 6.446 3.5 5.943c0-.503.392-.911.875-.911M14.872 5.032c.483 0 .875.408.875.91 0 .504-.392.912-.875.912s-.875-.408-.875-.911c0-.503.392-.911.875-.911" />
+                                                                <path fill="#53B260" d="M10.06 5.487h-.874c-.263 0-.438-.182-.438-.455s.175-.456.438-.456h1.312c.262 0 .437-.182.437-.455s-.175-.456-.437-.456h-.438c0-.273-.175-.455-.437-.455s-.437.182-.437.455c-.744 0-1.313.592-1.313 1.367 0 .774.569 1.366 1.313 1.366h.874c.263 0 .438.183.438.456s-.175.455-.438.455H8.748c-.262 0-.437.183-.437.456s.175.455.437.455h.438c0 .274.175.456.437.456s.437-.182.437-.456c.744 0 1.313-.592 1.313-1.366 0-.774-.569-1.367-1.313-1.367" />
+                                                                <path fill="#F4B45D" d="M11.373 7.027c1.69 0 3.061 1.427 3.061 3.188 0 1.761-1.37 3.189-3.061 3.189-1.691 0-3.062-1.428-3.062-3.189 0-1.76 1.37-3.188 3.062-3.188" />
+                                                                <path fill="#EFA14A" d="M15.31 6.116c1.69 0 3.061 1.427 3.061 3.188 0 1.761-1.37 3.189-3.062 3.189-1.69 0-3.062-1.428-3.062-3.189 0-1.76 1.371-3.188 3.062-3.188" />
+                                                                <path fill="#F4B55C" d="M15.31 11.582c-1.225 0-2.188-1.003-2.188-2.278 0-1.275.963-2.277 2.187-2.277 1.225 0 2.187 1.002 2.187 2.277 0 1.275-.962 2.278-2.187 2.278zm0-5.466c-1.707 0-3.063 1.412-3.063 3.188 0 1.777 1.356 3.189 3.062 3.189 1.706 0 3.062-1.412 3.062-3.189 0-1.776-1.356-3.188-3.062-3.188z" />
+                                                                <path fill="#EFA14A" d="M15.31 12.447c1.705.046 3.061-1.412 3.061-3.143h-.044c-.218 0-.393.182-.437.41-.087.638-.394 1.23-.831 1.64-.35.364-.831.592-1.356.683-.219 0-.394.182-.394.41" />
+                                                                <path fill="#FAD074" d="M15.31 6.161c-1.707-.045-3.063 1.412-3.063 3.143h.044c.219 0 .394-.182.438-.41.087-.638.393-1.23.83-1.64.35-.364.832-.592 1.357-.683.218 0 .393-.182.393-.41" />
+                                                                <path fill="#E9863A" d="M13.428 9.623c0-1.275.963-2.278 2.187-2.278.525 0 1.007.183 1.4.547-.437-.547-1.006-.865-1.706-.865-1.224 0-2.187 1.002-2.187 2.277 0 .729.306 1.321.788 1.731-.307-.364-.482-.865-.482-1.412" />
+                                                                <path fill="#F4B55C" d="M16.622 10.716c-.044 0-.088 0-.132-.045-.087-.092-.087-.228 0-.32.263-.273.394-.683.394-1.047 0-.137.087-.228.219-.228.13 0 .218.091.218.228 0 .501-.175 1.002-.48 1.367-.088.045-.176.045-.22.045" />
+                                                                <path fill="#E9863A" d="M15.31 10.67c-.263 0-.438-.182-.438-.455V8.393c0-.273.175-.455.437-.455.263 0 .438.182.438.455v1.822c0 .273-.175.456-.438.456" />
+                                                                <path fill="#E9863A" d="M16.928 11.992c-.306-1.14-1.094-2.05-2.1-2.46-.175-1.048-.83-1.959-1.662-2.505-.525.592-.875 1.366-.875 2.232 0 1.776 1.356 3.188 3.062 3.188.569.046 1.094-.137 1.575-.455" />
+                                                                <path fill="#E67637" d="M13.91 11.035c-.307-.41-.525-.911-.525-1.458 0-.637.262-1.23.7-1.64-.088-.136-.175-.227-.263-.318-.437.41-.7 1.002-.7 1.685 0 .729.306 1.321.788 1.731M14.872 9.577v.638c0 .273.175.456.437.456.263 0 .438-.183.438-.456v-.091c-.263-.228-.569-.41-.875-.547" />
+                                                                <path fill="#EFA14A" d="M16.928 11.992c-.088-.32-.175-.593-.35-.866-.35.273-.788.456-1.269.456-1.224 0-2.187-1.003-2.187-2.278 0-.683.263-1.275.7-1.685-.219-.228-.437-.41-.7-.547-.525.592-.875 1.367-.875 2.232 0 1.777 1.356 3.189 3.062 3.189.613 0 1.138-.183 1.619-.501" />
+                                                                <path fill="#E9863A" d="M16.796 11.582c-.306.227-.7.364-1.093.455-.219.046-.394.228-.394.456.613 0 1.138-.183 1.619-.501l-.132-.41" />
+                                                                <path fill="#F4B55C" d="M13.122 7.072c-.525.592-.875 1.367-.875 2.232h.044c.219 0 .394-.182.438-.41.087-.638.393-1.184.787-1.594-.131-.046-.263-.137-.394-.228" />
+                                                                <path fill="#EFA14A" d="M11.373 7.027c1.69 0 3.061 1.427 3.061 3.188 0 1.761-1.37 3.189-3.061 3.189-1.691 0-3.062-1.428-3.062-3.189 0-1.76 1.37-3.188 3.062-3.188" />
+                                                                <path fill="#E9863A" d="M10.935 12.493c0 .318.044.592.131.91h.307c1.706 0 3.061-1.411 3.061-3.188 0-.319-.043-.592-.13-.91h-.307c-1.706 0-3.062 1.411-3.062 3.188" />
+                                                                <path fill="#F4B55C" d="M11.373 12.493c-1.225 0-2.187-1.003-2.187-2.278 0-1.275.962-2.277 2.187-2.277 1.224 0 2.187 1.002 2.187 2.277 0 1.275-.963 2.278-2.187 2.278zm0-5.466c-1.706 0-3.062 1.412-3.062 3.188 0 1.777 1.356 3.189 3.062 3.189 1.706 0 3.061-1.412 3.061-3.189 0-1.776-1.355-3.188-3.061-3.188z" />
+                                                                <path fill="#EFA14A" d="M11.373 13.358c1.706.046 3.061-1.412 3.061-3.143h-.043c-.219 0-.394.182-.438.41-.087.638-.393 1.23-.83 1.64-.35.364-.832.592-1.357.683-.218 0-.393.182-.393.41" />
+                                                                <path fill="#FAD074" d="M11.373 7.072C9.667 7.027 8.31 8.484 8.31 10.215h.044c.218 0 .393-.182.437-.41.087-.638.394-1.23.831-1.64.35-.364.831-.592 1.356-.683.219 0 .394-.182.394-.41" />
+                                                                <path fill="#E9863A" d="M9.492 10.534c0-1.275.962-2.278 2.187-2.278.525 0 1.006.183 1.4.547-.438-.547-1.007-.865-1.706-.865-1.225 0-2.187 1.002-2.187 2.277 0 .729.306 1.321.787 1.731-.306-.364-.481-.865-.481-1.412" />
+                                                                <path fill="#F4B55C" d="M12.685 11.627c-.044 0-.088 0-.131-.045-.088-.092-.088-.228 0-.32.262-.273.393-.683.393-1.047 0-.137.088-.228.219-.228s.219.091.219.228c0 .501-.175 1.002-.481 1.367-.088.045-.175.045-.22.045" />
+                                                                <path fill="#E9863A" d="M11.373 11.582c-.263 0-.438-.183-.438-.456V9.304c0-.273.175-.455.438-.455.262 0 .437.182.437.455v1.822c0 .273-.175.456-.437.456" />
+                                                                <path fill="#EFA14A" d="M13.385 9.35c.087.273.175.546.175.865 0 1.275-.963 2.278-2.187 2.278-.132 0-.307 0-.438-.046v.046c0 .318.044.592.131.91h.307c1.706 0 3.061-1.411 3.061-3.188 0-.319-.043-.592-.13-.91h-.307c-.219 0-.394 0-.612.045" />
+                                                                <path fill="#EFA14A" d="M13.56 9.76c1.69 0 3.062 1.427 3.062 3.188 0 1.761-1.371 3.189-3.062 3.189-1.691 0-3.062-1.428-3.062-3.189 0-1.76 1.37-3.188 3.062-3.188" />
+                                                                <path fill="#F4B55C" d="M13.56 15.226c-1.225 0-2.187-1.003-2.187-2.278 0-1.275.962-2.277 2.187-2.277 1.224 0 2.187 1.002 2.187 2.277 0 1.275-.963 2.278-2.187 2.278zm0-5.466c-1.706 0-3.062 1.412-3.062 3.188 0 1.777 1.356 3.189 3.062 3.189 1.706 0 3.062-1.412 3.062-3.189 0-1.776-1.356-3.188-3.062-3.188z" />
+                                                                <path fill="#EFA14A" d="M13.56 16.091c1.706.046 3.062-1.412 3.062-3.143h-.044c-.219 0-.394.182-.438.41-.087.638-.393 1.23-.83 1.64-.35.364-.832.592-1.357.683-.218 0-.393.182-.393.41" />
+                                                                <path fill="#FAD074" d="M13.56 9.805c-1.706-.045-3.062 1.412-3.062 3.143h.044c.218 0 .393-.182.437-.41.087-.638.394-1.23.831-1.64.35-.364.831-.592 1.356-.683.219 0 .394-.182.394-.41" />
+                                                                <path fill="#E9863A" d="M11.679 13.267c0-1.275.962-2.278 2.187-2.278.525 0 1.006.183 1.4.547-.438-.547-1.006-.865-1.706-.865-1.225 0-2.187 1.002-2.187 2.277 0 .729.306 1.321.787 1.731-.306-.364-.481-.865-.481-1.412" />
+                                                                <path fill="#F4B55C" d="M14.872 14.36c-.044 0-.088 0-.131-.045-.088-.092-.088-.228 0-.32.262-.273.393-.683.393-1.047 0-.137.088-.228.219-.228s.219.091.219.228c0 .501-.175 1.002-.481 1.367-.088.045-.175.045-.22.045" />
+                                                                <path fill="#E9863A" d="M13.56 14.315c-.263 0-.438-.183-.438-.456v-1.822c0-.273.175-.455.438-.455.262 0 .437.182.437.455v1.822c0 .273-.175.456-.437.456" />
+                                                            </g>
+                                                            <path stroke="#FFF" stroke-width=".1" d="M0.05 0.05H20.571V18.191H0.05z" opacity=".01" transform="translate(1.586 3.172)" />
+                                                        </g>
+                                                        <path stroke="#FFF" stroke-width=".5" d="M0.25 0.25H22.75V22.75H0.25z" />
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                            <span class="InputContainerText">
+                                                Nakit Ödeme
+                                            </span>
+                                            <input type="checkbox">
+                                            <span class="checkmark" style="float:right!important;position:relative;padding-right:10px!important"></span>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-12 control-label OdemeTipiLabel">
+                                        <label class="InputContainer" style="padding-right:10px!important;padding-left:0px!important">
+                                            <span class="OdemeTipiIcon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+                                                    <defs>
+                                                        <path id="prefix__a" d="M0 0.037L11.044 0.037 11.044 20.968 0 20.968z" />
+                                                    </defs>
+                                                    <g fill="none" fill-rule="evenodd">
+                                                        <g transform="translate(4.839 1.613)">
+                                                            <mask id="prefix__b" fill="#fff">
+                                                                <use xlink:href="#prefix__a" />
+                                                            </mask>
+                                                            <path fill="#5F605C" d="M9.757 20.855c.769-.136 1.287-.993 1.287-1.845V1.99c0-1.076-.86-1.953-1.919-1.953H1.92C.861.037 0 .914 0 1.991v14.707c2.26 3.132 4.652 4.593 9.757 4.157" mask="url(#prefix__b)" />
+                                                            <path fill="#535451" d="M0 1.99v16.971c.065 2.024.588 2.024 1.473 2.003h6.578L3.726 19.84l-2.656-.034-.007-17.815c0-1.077.861-1.954 1.92-1.954H1.919C.861.037 0 .914 0 1.991" mask="url(#prefix__b)" />
+                                                            <path fill="#FCF8EC" d="M9.125 1.12h-.989c-.126 0-.23.104-.23.233v.3c0 .277-.222.504-.495.504H3.633c-.272 0-.495-.227-.495-.505v-.206c0-.18-.144-.326-.32-.326h-.899c-.472 0-.856.39-.856.87v15.96c.034 1.938-.082 1.81 2.577 1.89h5.485c.473 0 .856-.39.856-.87V1.99c0-.48-.383-.87-.856-.87" />
+                                                            <path fill="#E9E2CF" d="M1.92 1.12c-.473 0-.857.39-.857.87v17.816h1.022V1.991c0-.455.342-.828.78-.867-.05-.008.003-.003-.946-.004" />
+                                                            <path fill="#787873" d="M6.769 1.435H5.152c-.171 0-.31-.141-.31-.315 0-.174.139-.316.31-.316h1.617c.17 0 .31.142.31.316 0 .174-.14.315-.31.315M4.006 1.382c-.222-.149-.168-.511.11-.571.19-.04.371.11.371.309 0 .146-.099.277-.25.309-.019.004-.168-.004-.231-.047" />
+                                                            <path fill="#4C9FCC" d="M3.056 18.928h-.829c-.076 0-.138-.063-.138-.14v-.844c0-.077.062-.14.138-.14h.829c.076 0 .138.063.138.14v.844c0 .077-.062.14-.138.14" />
+                                                            <path fill="#F6BE29" d="M5.007 18.928h-.829c-.076 0-.138-.063-.138-.14v-.844c0-.077.062-.14.138-.14h.829c.076 0 .138.063.138.14v.844c0 .077-.062.14-.138.14" />
+                                                            <path fill="#DCD1B7" d="M6.958 18.928h-.829c-.076 0-.138-.063-.138-.14v-.844c0-.077.062-.14.138-.14h.829c.076 0 .138.063.138.14v.844c0 .077-.062.14-.138.14" />
+                                                            <path fill="#DD404D" d="M8.908 18.928H8.08c-.076 0-.138-.063-.138-.14v-.844c0-.077.062-.14.138-.14h.828c.076 0 .139.063.139.14v.844c0 .077-.063.14-.139.14" />
+                                                            <path fill="#4C9FCC" d="M18.529 14.01V5.96c0-.231-.187-.421-.415-.421H4.283c-.228 0-.414.19-.414.421v8.052c0 .232.186.421.414.421h13.831c.228 0 .415-.19.415-.421" />
+                                                            <path fill="#4C9FCC" d="M18.529 14.01V5.96c0-.231-.187-.421-.415-.421H4.283c-.228 0-.414.19-.414.421v8.052c0 .232.186.421.414.421h13.831c.228 0 .415-.19.415-.421" />
+                                                            <path fill="#4589BC" d="M6.05 14.01V5.96c0-.232.187-.422.416-.422H4.283c-.228 0-.414.19-.414.421v8.052c0 .232.186.421.414.421h2.183c-.229 0-.415-.19-.415-.421" />
+                                                            <path fill="#DD404D" d="M15.115 12.588c-.321-.565-.17-1.275.327-1.662-.394-.306-.946-.36-1.403-.093-.604.355-.812 1.14-.463 1.755.35.615 1.123.825 1.728.47.048-.028.094-.06.137-.093-.128-.1-.24-.226-.326-.377" />
+                                                            <path fill="#DA2F3E" d="M14.22 12.425c-.35-.615-.142-1.4.463-1.755l.015-.008c-.224-.005-.451.05-.659.171-.604.355-.812 1.14-.463 1.755.347.61 1.11.821 1.713.479-.428-.01-.84-.239-1.069-.642" />
+                                                            <path fill="#F6BE29" d="M17.306 11.304c-.35-.615-1.123-.825-1.728-.47-.048.028-.093.059-.136.092.128.1.24.227.325.378.321.565.171 1.275-.326 1.662.394.306.946.36 1.402.093.605-.355.812-1.141.463-1.755" />
+                                                            <path fill="#E3692A" d="M15.767 11.304c-.086-.151-.197-.278-.325-.378-.498.387-.648 1.097-.327 1.662.086.151.198.278.326.377.497-.386.647-1.096.326-1.661" />
+                                                            <path fill="#E5E5E0" d="M5.566 12.351h.932c.22 0 .399-.182.399-.405 0-.223-.18-.405-.399-.405h-.932c-.22 0-.399.182-.399.405 0 .223.18.405.399.405" />
+                                                            <path fill="#C7C6C1" d="M5.855 11.946c0-.223.18-.405.399-.405h-.688c-.22 0-.399.182-.399.405 0 .223.18.405.399.405h.688c-.22 0-.4-.182-.4-.405" />
+                                                            <path fill="#E5E5E0" d="M7.973 12.351h.932c.22 0 .399-.182.399-.405 0-.223-.18-.405-.399-.405h-.932c-.22 0-.399.182-.399.405 0 .223.18.405.399.405" />
+                                                            <path fill="#C7C6C1" d="M8.262 11.946c0-.223.18-.405.399-.405h-.688c-.22 0-.399.182-.399.405 0 .223.18.405.399.405h.688c-.22 0-.4-.182-.4-.405" />
+                                                            <path fill="#E5E5E0" d="M10.38 12.351H11.312c.22 0 .4-.182.4-.405 0-.223-.18-.405-.4-.405h-.932c-.22 0-.399.182-.399.405 0 .223.18.405.399.405" />
+                                                            <path fill="#C7C6C1" d="M10.669 11.946c0-.223.18-.405.399-.405h-.688c-.22 0-.399.182-.399.405 0 .223.18.405.399.405h.688c-.22 0-.4-.182-.4-.405" />
+                                                            <path fill="#F6BE29" d="M7.24 8.915H5.56c-.216 0-.393-.18-.393-.398v-.85c0-.219.177-.398.392-.398H7.24c.216 0 .392.18.392.398v.85c0 .219-.176.398-.392.398" />
+                                                            <path fill="#ED9831" d="M6.253 8.517v-.85c0-.219.177-.398.393-.398H5.559c-.215 0-.392.18-.392.398v.85c0 .219.177.398.392.398h1.087c-.216 0-.393-.18-.393-.398" />
+                                                            <path fill="#62C0C6" d="M17.476 6.457c-.15 0-.272.124-.272.276v2.84c0 .152.122.276.272.276.149 0 .271-.124.271-.275V6.733c0-.152-.122-.276-.271-.276" />
+                                                        </g>
+                                                        <path stroke="#FFF" stroke-width=".5" d="M0.25 0.25H24.75V24.75H0.25z" />
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                            <span class="InputContainerText">
+                                                Kapıda Kredi Kartı
+                                            </span>
+                                            <input type="checkbox">
+                                            <span class="checkmark" style="float:right!important;position:relative;padding-right:10px!important"></span>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-12 control-label OdemeTipiLabel">
+                                        <label class="InputContainer" style="padding-right:10px!important;padding-left:0px!important">
+                                            <span class="OdemeTipiIcon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="13" viewBox="0 0 17 13">
+                                                    <defs>
+                                                        <path id="prefix__a" d="M0.002 0.026L16.983 0.026 16.983 12.991 0.002 12.991z" />
+                                                    </defs>
+                                                    <g fill="none" fill-rule="evenodd">
+                                                        <mask id="prefix__b" fill="#fff">
+                                                            <use xlink:href="#prefix__a" />
+                                                        </mask>
+                                                        <path fill="#5D647F" d="M15.657.026H1.327C.595.026 0 .66 0 1.436v10.146c0 .777.595 1.41 1.327 1.41h14.33c.731 0 1.326-.633 1.326-1.41V1.436c0-.777-.595-1.41-1.326-1.41z" mask="url(#prefix__b)" />
+                                                        <path fill="#FFD100" d="M5.838 5.663H2.654c-.293 0-.531-.252-.531-.563V2.845c0-.311.238-.564.53-.564h3.185c.293 0 .53.253.53.564V5.1c0 .31-.237.563-.53.563z" />
+                                                        <path fill="#B8BAC0" d="M3.98 9.327H2.654c-.293 0-.531-.252-.531-.564v-.281c0-.312.238-.564.53-.564H3.98c.294 0 .531.252.531.564v.281c0 .312-.237.564-.53.564zM7.43 9.327H6.103c-.293 0-.53-.252-.53-.564v-.281c0-.312.237-.564.53-.564H7.43c.293 0 .531.252.531.564v.281c0 .312-.238.564-.53.564zM10.88 9.327H9.553c-.293 0-.53-.252-.53-.564v-.281c0-.312.237-.564.53-.564h1.327c.293 0 .53.252.53.564v.281c0 .312-.237.564-.53.564zM14.33 9.327h-1.327c-.293 0-.53-.252-.53-.564v-.281c0-.312.237-.564.53-.564h1.327c.293 0 .53.252.53.564v.281c0 .312-.237.564-.53.564z" />
+                                                        <path fill="#8A8895" d="M7.696 11.018H2.388c-.146 0-.265-.126-.265-.282 0-.155.119-.281.265-.281h5.308c.146 0 .265.126.265.281 0 .156-.119.282-.265.282zM11.145 11.018H8.757c-.147 0-.265-.126-.265-.282 0-.155.118-.281.265-.281h2.388c.147 0 .266.126.266.281 0 .156-.119.282-.266.282z" />
+                                                        <path fill="#FF4F19" d="M12.207 5.1c-.292.346-.715.563-1.187.563-.88 0-1.592-.757-1.592-1.69 0-.935.713-1.692 1.592-1.692.472 0 .895.218 1.187.564" />
+                                                        <path fill="#FF9500" d="M6.369 4.254L3.715 4.254 3.715 3.69 6.369 3.69 6.369 3.127 3.715 3.127 3.715 2.281 3.184 2.281 3.184 5.663 3.715 5.663 3.715 4.818 6.369 4.818z" />
+                                                        <path fill="#FFD100" d="M14.86 3.972c0 .934-.712 1.691-1.592 1.691-.879 0-1.592-.757-1.592-1.69 0-.935.713-1.692 1.592-1.692.88 0 1.592.757 1.592 1.691z" />
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                            <span class="InputContainerText">
+                                                Online Kredi Kartı
+                                            </span>
+                                            <input type="checkbox">
+                                            <span class="checkmark" style="float:right!important;position:relative;padding-right:10px!important"></span>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-12 control-label OdemeTipiLabel">
+                                        <label class="InputContainer" style="padding-right:10px!important;padding-left:0px!important">
+                                            <span class="OdemeTipiIcon">
+                                                <img src="/Assests/images/OdemeTipleri/odeme-sodexo.png" />
+                                            </span>
+                                            <span class="InputContainerText">
+                                                Sodexo
+                                            </span>
+                                            <input type="checkbox">
+                                            <span class="checkmark" style="float:right!important;position:relative;padding-right:10px!important"></span>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-12 control-label OdemeTipiLabel">
+                                        <label class="InputContainer" style="padding-right:10px!important;padding-left:0px!important">
+                                            <span class="OdemeTipiIcon">
+                                                <img src="/Assests/images/OdemeTipleri/odeme-multinet.png" />
+                                            </span>
+                                            <span class="InputContainerText">
+                                                Multinet
+                                            </span>
+                                            <input type="checkbox">
+                                            <span class="checkmark" style="float:right!important;position:relative;padding-right:10px!important"></span>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-12 control-label OdemeTipiLabel">
+                                        <label class="InputContainer" style="padding-right:10px!important;padding-left:0px!important">
+                                            <span class="OdemeTipiIcon">
+                                                <img src="/Assests/images/OdemeTipleri/odeme-bkm.png" />
+                                            </span>
+                                            <span class="InputContainerText">
+                                                BKM Express
+                                            </span>
+                                            <input type="checkbox">
+                                            <span class="checkmark" style="float:right!important;position:relative;padding-right:10px!important"></span>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-12 control-label OdemeTipiLabel">
+                                        <label class="InputContainer" style="padding-right:10px!important;padding-left:0px!important">
+                                            <span class="OdemeTipiIcon">
+                                                <img src="/Assests/images/OdemeTipleri/odeme-iyzco.png" />
+                                            </span>
+                                            <span class="InputContainerText">
+                                                Iyzco
+                                            </span>
+                                            <input type="checkbox">
+                                            <span class="checkmark" style="float:right!important;position:relative;padding-right:10px!important"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card card-outline-secondary my-4">
+                            <div class="card-header">
+                                Sosyal Medya Kanalları
+                            </div>
+                            <div class="card-body">
+                                <span class="InfoSpan">* Müşterilerin sizinle iletişime geçmesini istediğiniz sosyal kanal bilgilerinizi giriniz.</span>
+
+                                <div class="form-group row">
+                                    <div class="col-lg-12 m-0 p-0">
+                                        <input for="Name" placeholder="Whatsapp" class="form-control col-lg-12 mt-1" />
+                                        <svg class="SvgIcon" fill="#25d366" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp icon</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg>
+                                    </div>
+                                    <div class="col-lg-12 m-0 p-0">
+                                        <input for="Name" placeholder="Instagram" class="form-control col-lg-12 mt-1" />
+                                        <svg class="SvgIcon" fill="#E4405F" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram icon</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path></svg>
+                                    </div>
+                                    <div class="col-lg-12 m-0 p-0">
+                                        <input for="Name" placeholder="Facebook" class="form-control col-lg-12 mt-1" />
+                                        <svg class="SvgIcon" fill="#1877F2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook icon</title><path d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"></path></svg>
+                                    </div>
+                                    <div class="col-lg-12 m-0 p-0">
+                                        <input for="Name" placeholder="Twitter" class="form-control col-lg-12 mt-1" />
+                                        <svg class="SvgIcon" fill="#1DA1F2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path></svg>
+                                    </div>
+                                    <div class="col-lg-12 m-0 p-0">
+                                        <input for="Name" placeholder="Linkedin" class="form-control col-lg-12 mt-1" />
+                                        <svg class="SvgIcon" fill="#0077B5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn icon</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+                                    </div>
+                                    <div class="col-lg-12 m-0 p-0">
+                                        <input for="Name" placeholder="Skype" class="form-control col-lg-12 mt-1" />
+                                        <svg class="SvgIcon" fill="#00AFF0" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Skype icon</title><path d="M12.069 18.874c-4.023 0-5.82-1.979-5.82-3.464 0-.765.561-1.296 1.333-1.296 1.723 0 1.273 2.477 4.487 2.477 1.641 0 2.55-.895 2.55-1.811 0-.551-.269-1.16-1.354-1.429l-3.576-.895c-2.88-.724-3.403-2.286-3.403-3.751 0-3.047 2.861-4.191 5.549-4.191 2.471 0 5.393 1.373 5.393 3.199 0 .784-.688 1.24-1.453 1.24-1.469 0-1.198-2.037-4.164-2.037-1.469 0-2.292.664-2.292 1.617s1.153 1.258 2.157 1.487l2.637.587c2.891.649 3.624 2.346 3.624 3.944 0 2.476-1.902 4.324-5.722 4.324m11.084-4.882l-.029.135-.044-.24c.015.045.044.074.059.12.12-.675.181-1.363.181-2.052 0-1.529-.301-3.012-.898-4.42-.569-1.348-1.395-2.562-2.427-3.596-1.049-1.033-2.247-1.856-3.595-2.426-1.318-.631-2.801-.93-4.328-.93-.72 0-1.444.07-2.143.204l.119.06-.239-.033.119-.025C8.91.274 7.829 0 6.731 0c-1.789 0-3.47.698-4.736 1.967C.729 3.235.032 4.923.032 6.716c0 1.143.292 2.265.844 3.258l.02-.124.041.239-.06-.115c-.114.645-.172 1.299-.172 1.955 0 1.53.3 3.017.884 4.416.568 1.362 1.378 2.576 2.427 3.609 1.034 1.05 2.247 1.857 3.595 2.442 1.394.6 2.877.898 4.404.898.659 0 1.334-.06 1.977-.179l-.119-.062.24.046-.135.03c1.002.569 2.126.871 3.294.871 1.783 0 3.459-.69 4.733-1.963 1.259-1.259 1.962-2.951 1.962-4.749 0-1.138-.299-2.262-.853-3.266"></path></svg>
+                                    </div>
+                                    <div class="col-lg-12 m-0 p-0">
+                                        <input for="Name" placeholder="Viber" class="form-control col-lg-12 mt-1" />
+                                        <svg class="SvgIcon" fill="#665CAC" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Viber icon</title><path d="M11.398.002C9.473.028 5.331.344 3.014 2.467 1.294 4.177.693 6.698.623 9.82c-.06 3.11-.13 8.95 5.5 10.541v2.42s-.038.97.602 1.17c.79.25 1.24-.499 1.99-1.299l1.4-1.58c3.85.32 6.8-.419 7.14-.529.78-.25 5.181-.811 5.901-6.652.74-6.031-.36-9.831-2.34-11.551l-.01-.002c-.6-.55-3-2.3-8.37-2.32 0 0-.396-.025-1.038-.016zm.067 1.697c.545-.003.88.02.88.02 4.54.01 6.711 1.38 7.221 1.84 1.67 1.429 2.528 4.856 1.9 9.892-.6 4.88-4.17 5.19-4.83 5.4-.28.09-2.88.73-6.152.52 0 0-2.439 2.941-3.199 3.701-.12.13-.26.17-.35.15-.13-.03-.17-.19-.16-.41l.02-4.019c-4.771-1.32-4.491-6.302-4.441-8.902.06-2.6.55-4.732 2-6.172 1.957-1.77 5.475-2.01 7.11-2.02zm.36 2.6a.299.299 0 0 0-.3.299.3.3 0 0 0 .3.3 5.631 5.631 0 0 1 4.03 1.59c1.09 1.06 1.621 2.48 1.641 4.34a.3.3 0 0 0 .3.3v-.009a.3.3 0 0 0 .3-.3 6.451 6.451 0 0 0-1.81-4.76c-1.19-1.16-2.692-1.76-4.462-1.76zm-3.954.69a.955.955 0 0 0-.615.12h-.012c-.41.24-.788.54-1.148.94-.27.32-.421.639-.461.949a1.24 1.24 0 0 0 .05.541l.02.01a13.722 13.722 0 0 0 1.2 2.6 15.383 15.383 0 0 0 2.32 3.171l.03.04.04.03.03.03.03.03a15.603 15.603 0 0 0 3.18 2.33c1.32.72 2.122 1.06 2.602 1.2v.01c.14.04.268.06.398.06a1.84 1.84 0 0 0 1.102-.472c.39-.35.7-.738.93-1.148v-.01c.23-.43.15-.841-.18-1.121a13.632 13.632 0 0 0-2.15-1.54c-.51-.28-1.03-.11-1.24.17l-.45.569c-.23.28-.65.24-.65.24l-.012.01c-3.12-.8-3.95-3.959-3.95-3.959s-.04-.43.25-.65l.56-.45c.27-.22.46-.74.17-1.25a13.522 13.522 0 0 0-1.54-2.15.843.843 0 0 0-.504-.3zm4.473.89a.3.3 0 0 0 .002.6 3.78 3.78 0 0 1 2.65 1.15 3.5 3.5 0 0 1 .9 2.57.3.3 0 0 0 .3.299l.01.012a.3.3 0 0 0 .3-.301c.03-1.19-.34-2.19-1.07-2.99-.73-.8-1.75-1.25-3.05-1.34a.3.3 0 0 0-.042 0zm.49 1.619a.305.305 0 0 0-.018.611c.99.05 1.47.55 1.53 1.58a.3.3 0 0 0 .3.29h.01a.3.3 0 0 0 .29-.32c-.07-1.34-.8-2.091-2.1-2.161a.305.305 0 0 0-.012 0z"></path></svg>
+                                    </div>
+                                    <div class="col-lg-12 m-0 p-0">
+                                        <input for="Name" placeholder="Line" class="form-control col-lg-12 mt-1" />
+                                        <svg class="SvgIcon" fill="#00C300" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Line icon</title><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"></path></svg>
+                                    </div>
+                                    <div class="col-lg-12 m-0 p-0">
+                                        <input for="Name" placeholder="Telegram" class="form-control col-lg-12 mt-1" />
+                                        <svg class="SvgIcon" fill="#2CA5E0" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Telegram icon</title><path d="M23.91 3.79L20.3 20.84c-.25 1.21-.98 1.5-2 .94l-5.5-4.07-2.66 2.57c-.3.3-.55.56-1.1.56-.72 0-.6-.27-.84-.95L6.3 13.7l-5.45-1.7c-1.18-.35-1.19-1.16.26-1.75l21.26-8.2c.97-.43 1.9.24 1.53 1.73z"></path></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="card card-outline-secondary mt-0">
+                            <div class="card-header">
+                                Marka Fotoğrafları
+                            </div>
+                            <div class="card-body" style="height:200px!important;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card card-outline-secondary  mt-0">
+                                    <div class="card-header">
+                                        Sipariş Bilgileri
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="form-group row">
+                                            <label class="col-lg-12 control-label control-label-multiline">Minimum Sipariş Tutarı:</label>
+                                            <input for="Name" class="form-control col-lg-12" value="20 TL " />
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-lg-12 control-label control-label-multiline">Teslimat Süresi:</label>
+                                            <input for="Name" class="form-control col-lg-12 " value="1 gün" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="card mt-3">
+                                    <div class="card-header">
+                                        Adres
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="form-group row">
+                                            <label class="col-lg-12 control-label control-label-multiline">Adres Bilginiz</label>
+                                            <div class="col-lg-12">
+                                                <textarea rows="3" class="form-control contentbg"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card card-outline-secondary  mt-0">
+                            <div class="card-header">
+                                Menü
+                            </div>
+                            <div class="card-body" style="height:400px!important;">
+                                <div class="form-group row">
+                                    <label class="col-lg-6 control-label control-label-multiline">Menü Ekle</label>
+                                    <input type="button" class="btn btn-danger btn-sm RoundButton float-right col-lg-6" value="Menü Ekle">
+                                </div>
+                                <div class="form-group row">
+                                    <img src="https://i.sonhaberler.com/storage/old/images/upload/nusret-et-fiyatlari-2019-guncel-5.jpg" class="img-fluid" />
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
